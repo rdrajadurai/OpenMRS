@@ -10,9 +10,10 @@
           <include name="submit"/>
           <include name="LogOut"/>
           <include name="contact_info"/>
+          <include name="afterMethod"/>
           <include name="deletepatient"/>
-          <include name="BeforeMethod"/>
           <include name="appointment"/>
+          <include name="BeforeMethod"/>
           <include name="relative"/>
         </methods>
       </class> <!-- testCase.TC -->

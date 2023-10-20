@@ -9,6 +9,21 @@ import utils.Utility;
 
 public class RegisterPage extends WebTestBase{
 	
+	@FindBy(id="next-button")
+	WebElement emptybutton;
+	
+	@FindBy(id="next-button")
+	WebElement emptybutton2;
+	
+	@FindBy(id="next-button")
+	WebElement emptybutton3;
+	
+	@FindBy(id="next-button")
+	WebElement emptybutton4;
+	
+	
+	
+	
 	@FindBy(id="referenceapplication-registrationapp-registerPatient-homepageLink-referenceapplication-registrationapp-registerPatient-homepageLink-extension")
 	WebElement register;
 	
@@ -68,20 +83,20 @@ public class RegisterPage extends WebTestBase{
 	@FindBy(id="submit")
 	WebElement submit;
 	
-	//*[@id="breadcrumbs"]/li[1]/a
-	
-	
-	
-	
-	
 	
 
 	public RegisterPage() {
 		PageFactory.initElements(driver, this);
 	
 	}
+	
+	
 	public void register_Page() {
 		register.click();
+	}
+	public void click_empty() {
+		emptybutton.click();
+			
 	}
 	 
 	public void patient_Name() {
@@ -93,6 +108,11 @@ public class RegisterPage extends WebTestBase{
 	public void confirm_Button() {
 		confirm.click();
 	}
+	
+	public void click_emptyGender() {
+		emptybutton2.click();
+		
+	}
 	public void double_Click() throws InterruptedException {
 		Utility.doubleClick(driver,gender);
 		gender.click();
@@ -100,6 +120,11 @@ public class RegisterPage extends WebTestBase{
 	
 	public void confirm_Button2() {
 		confirm2.click();
+	}
+	
+	public void click_emptyDob() {
+		emptybutton2.click();
+			
 	}
 	
 	public void bdy_Date() {
@@ -122,6 +147,11 @@ public class RegisterPage extends WebTestBase{
 		confirm3.click();
 	}
 	
+	
+	public void click_emptyAddress() {
+		emptybutton3.click();
+		
+	}
 	public void patient_Address() {
 		address.sendKeys("xyz street");
 	}
@@ -133,7 +163,12 @@ public class RegisterPage extends WebTestBase{
 		confirm4.click();
 	}
 	public void patient_number() {
-		number.sendKeys("9999988888");
+		number.sendKeys("abcdefghi");
+		emptybutton4.click();
+		
+		number.clear();
+		number.sendKeys("1234567890");
+		
 	}
 	public void confirm_Button5() {
 		confirm5.click();

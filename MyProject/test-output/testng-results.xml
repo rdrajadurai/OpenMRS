@@ -2,59 +2,63 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T15:01:31 IST" name="Default suite" finished-at="2023-09-29T15:03:38 IST" duration-ms="127376">
+  <suite started-at="2023-10-20T14:34:31 IST" name="Default suite" finished-at="2023-10-20T14:36:46 IST" duration-ms="135538">
     <groups>
     </groups>
-    <test started-at="2023-09-29T15:01:31 IST" name="Default test" finished-at="2023-09-29T15:03:38 IST" duration-ms="127376">
+    <test started-at="2023-10-20T14:34:31 IST" name="Default test" finished-at="2023-10-20T14:36:46 IST" duration-ms="135538">
       <class name="testCase.TC">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:01:31 IST" name="BeforeMethod" finished-at="2023-09-29T15:02:24 IST" duration-ms="53699" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:34:31 IST" name="BeforeMethod" finished-at="2023-10-20T14:34:44 IST" duration-ms="13003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="verifyLogin()[pri:0, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:25 IST" name="verifyLogin" finished-at="2023-09-29T15:02:29 IST" duration-ms="4587" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:34:44 IST" name="verifyLogin" finished-at="2023-10-20T14:34:51 IST" duration-ms="7713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verify_homepage()[pri:1, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:29 IST" name="verify_homepage" finished-at="2023-09-29T15:02:31 IST" duration-ms="1114" status="PASS">
+        <test-method signature="verify_homepage()[pri:1, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:34:51 IST" name="verify_homepage" finished-at="2023-10-20T14:34:52 IST" duration-ms="1080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_homepage -->
-        <test-method signature="register_patient()[pri:2, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:31 IST" name="register_patient" finished-at="2023-09-29T15:02:41 IST" duration-ms="9976" status="PASS">
+        <test-method signature="register_patient()[pri:2, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:34:52 IST" name="register_patient" finished-at="2023-10-20T14:35:05 IST" duration-ms="12121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register_patient -->
-        <test-method signature="demo_graphics()[pri:3, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:41 IST" name="demo_graphics" finished-at="2023-09-29T15:02:48 IST" duration-ms="7343" status="PASS">
+        <test-method signature="demo_graphics()[pri:3, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:35:05 IST" name="demo_graphics" finished-at="2023-10-20T14:35:21 IST" duration-ms="16029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo_graphics -->
-        <test-method signature="contact_info()[pri:4, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:48 IST" name="contact_info" finished-at="2023-09-29T15:02:50 IST" duration-ms="1830" status="PASS">
+        <test-method signature="contact_info()[pri:4, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:35:21 IST" name="contact_info" finished-at="2023-10-20T14:35:32 IST" duration-ms="11056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact_info -->
-        <test-method signature="relative()[pri:5, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:50 IST" name="relative" finished-at="2023-09-29T15:02:54 IST" duration-ms="3894" status="PASS">
+        <test-method signature="relative()[pri:5, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:35:32 IST" name="relative" finished-at="2023-10-20T14:35:36 IST" duration-ms="4584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relative -->
-        <test-method signature="submit()[pri:6, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:54 IST" name="submit" finished-at="2023-09-29T15:02:55 IST" duration-ms="1242" status="PASS">
+        <test-method signature="submit()[pri:6, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:35:36 IST" name="submit" finished-at="2023-10-20T14:35:37 IST" duration-ms="1141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submit -->
-        <test-method signature="appointment()[pri:7, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:02:55 IST" name="appointment" finished-at="2023-09-29T15:03:13 IST" duration-ms="18446" status="PASS">
+        <test-method signature="appointment()[pri:7, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:35:37 IST" name="appointment" finished-at="2023-10-20T14:36:10 IST" duration-ms="32436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appointment -->
-        <test-method signature="editregistration()[pri:8, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:03:13 IST" name="editregistration" finished-at="2023-09-29T15:03:34 IST" duration-ms="20600" status="PASS">
+        <test-method signature="editregistration()[pri:8, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:36:10 IST" name="editregistration" finished-at="2023-10-20T14:36:41 IST" duration-ms="31227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editregistration -->
-        <test-method signature="deletepatient()[pri:9, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:03:34 IST" name="deletepatient" finished-at="2023-09-29T15:03:36 IST" duration-ms="1907" status="PASS">
+        <test-method signature="deletepatient()[pri:9, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:36:41 IST" name="deletepatient" finished-at="2023-10-20T14:36:43 IST" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletepatient -->
-        <test-method signature="LogOut()[pri:10, instance:testCase.TC@24aed80c]" started-at="2023-09-29T15:03:36 IST" name="LogOut" finished-at="2023-09-29T15:03:38 IST" duration-ms="1919" status="PASS">
+        <test-method signature="LogOut()[pri:10, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:36:43 IST" name="LogOut" finished-at="2023-10-20T14:36:46 IST" duration-ms="3164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.TC@3a52dba3]" started-at="2023-10-20T14:36:46 IST" name="afterMethod" finished-at="2023-10-20T14:36:46 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- testCase.TC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

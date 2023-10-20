@@ -25,6 +25,7 @@ public class TC extends WebTestBase {
     DeletePage deletepage;
     LogoutPage logoutpage;
     
+    
 	public TC() {
 		super();
 		
@@ -40,6 +41,8 @@ public class TC extends WebTestBase {
 		editregistration=new EditRegistration();
 		deletepage=new DeletePage();
 		logoutpage=new LogoutPage();
+		
+		
 	}
 	@Test(priority=0)
 	public void verifyLogin() {
@@ -56,40 +59,56 @@ public class TC extends WebTestBase {
 		softassert.assertEquals(homepage.gettextofsearch(),"Logged in as Super User (admin) at Inpatient Ward.","My");
 		Thread.sleep(1000);
 	}
+	
 	@Test(priority=2)
 	public void register_patient() throws InterruptedException {
 		SoftAssert softassert=new SoftAssert();
 		registerpage.register_Page();
-		softassert.assertAll();
 		Thread.sleep(1000);
 		
 	}
-	@Test(priority=3)
+	 @Test(priority=3)
 	public void demo_graphics() throws InterruptedException {
 		SoftAssert softassert=new SoftAssert();
+		registerpage.click_empty();
+		Thread.sleep(3000);
+		
 		registerpage.patient_Name();
 		registerpage.family_Name();
 		registerpage.confirm_Button();
+		
+		registerpage.click_emptyGender();
+		Thread.sleep(3000);
+		
 		registerpage.double_Click();
 		registerpage.confirm_Button2();
+		
+		registerpage.click_emptyDob();
+		Thread.sleep(3000);
+		
 		registerpage.bdy_Date();
 		registerpage.doubleClick_Bdymonth();
 		registerpage.select_Month("byValue","5" );
 		registerpage.bdy_Year();
 		registerpage.confirm_Button3();
-		softassert.assertAll();
 		Thread.sleep(1000);
 	}
 	
 	@Test(priority=4)
 		public void contact_info() throws InterruptedException {
 		SoftAssert softassert=new SoftAssert();
+		
+		registerpage.click_emptyAddress();
+		Thread.sleep(3000);
+		
 		registerpage.patient_Address();
 		registerpage.patient_City();
 		registerpage.confirm_Button4();
+		Thread.sleep(3000);
+		
 		registerpage.patient_number();
+		Thread.sleep(3000);
 		registerpage.confirm_Button5();
-		softassert.assertAll();
 		Thread.sleep(1000);
 			
 		}
@@ -100,8 +119,7 @@ public class TC extends WebTestBase {
 	    registerpage.choose_relative("byValue","8d91a01c-c2cc-11de-8d13-0010c6dffd0f-A");
 	    registerpage.relative_name();
 	    registerpage.confirm_Button6();
-	    softassert.assertAll();
-	    Thread.sleep(1000);
+	    Thread.sleep(2000);
 		
 		
 	}
@@ -155,12 +173,13 @@ public class TC extends WebTestBase {
 		logoutpage.logoutt();
 		softassert.assertAll();
 		
-	}
-/*	@AfterTest
+	} 
+	
+	@AfterTest
 	public void afterMethod() {
 		driver.close();
 		
-	}*/
+	} 
 
 	}
 	
